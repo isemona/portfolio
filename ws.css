@@ -22,8 +22,7 @@ peach - #FFC489*/
 }
 */
  
-#navlist li
-{
+#navlist li {
 display: inline;
 list-style-type: none;
 padding-right: 20px;
@@ -36,7 +35,31 @@ padding-right: 20px;
     margin-right: auto;
     height: auto; 
     width: auto; 
-    max-width: 400px; 
-    max-height: 400px;
+    max-width: 450px; 
+    max-height: 450px;
 
 }
+
+.intro {
+    border-color: #2B0056;
+    font-family: "Shadows Into Light", serif;
+    font-size: 20px;
+    border: 7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto; 
+    width: auto; 
+    max-width: 440px; 
+    max-height: 440px;
+}
+
+strong {
+    font-weight:bold;
+}
+
+b {
+    font-weight:bold;
+}
+
+/* resetting strong and b don't work with my fancy fonts */
