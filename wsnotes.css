@@ -1,3 +1,14 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+element.style{
+    display: flex;
+}
+
 .background {
     background-color: white;
 }
@@ -31,12 +42,13 @@ peach - #FFC489*/
     font-size: 20px;
 }
    
+h2 {
+    margin: 30px auto;
+}
 
 .quote {
     border-color: #2B0056;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: auto; 
     width: auto; 
     max-width: 700px; 
