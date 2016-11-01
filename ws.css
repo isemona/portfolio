@@ -37,11 +37,7 @@ padding-right: 20px;
     max-height: 500px;
     position: relative;
     overflow: hidden;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 .intro {
