@@ -33,11 +33,15 @@ padding-right: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: auto; 
-    width: auto; 
-    max-width: 450px; 
-    max-height: 450px;
-
+    max-width: 500px; 
+    max-height: 500px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border-radius: 100%;
 }
 
 .intro {
