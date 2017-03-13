@@ -4,5 +4,11 @@ body {
 	font-weight: 300;
 }
 
+.text-muted {
+	color: #bcBBB;
+}
 
-
+.text-thin {
+	font-weight: 100;
+	color: red;
+}
